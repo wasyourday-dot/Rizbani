@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" fill="none" role="img" aria-label="Logo Resmi Klinik Pratama Azizah">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&amp;display=swap');
+      .clinic-navy { fill: #0E3D6B; }
+      .clinic-pink { fill: #E82676; }
+      .clinic-green { fill: #1E942B; }
+      .text-title { font-family: 'Playfair Display', 'Times New Roman', Georgia, serif; font-size: 25px; font-weight: 800; letter-spacing: 1.8px; }
+      .text-brand { font-family: 'Playfair Display', 'Times New Roman', Georgia, serif; font-size: 64px; font-weight: 900; letter-spacing: 1.5px; }
+    </style>
+  </defs>
+
+  <!-- Left Emblem Group -->
+  <g id="emblem">
+    <!-- Green Medical Cross (#1E942B) -->
+    <rect x="74" y="20" width="44" height="110" rx="7" class="clinic-green" />
+    <rect x="34" y="53" width="124" height="44" rx="7" class="clinic-green" />
+
+    <!-- Outer Green Crescent Arc wrapping lower-left -->
+    <path
+      d="M 22 72 C 18 108 42 144 98 150 C 74 146 45 131 34 107 C 26 92 24 81 22 72 Z"
+      class="clinic-green"
+    />
+
+    <!-- Pink Leaf with crisp white separation border -->
+    <path
+      d="M 54 100 C 47 75 70 51 106 46 C 110 70 99 95 54 100 Z"
+      class="clinic-pink"
+      stroke="#FFFFFF"
+      stroke-width="3.5"
+      stroke-linejoin="round"
+    />
+    <!-- Leaf Central White Vein -->
+    <path
+      d="M 58 97 Q 80 73 102 50"
+      stroke="#FFFFFF"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      fill="none"
+    />
+
+    <!-- Dynamic Pink Swoosh Ribbon flowing from under the cross directly into the first 'A' of AZIZAH -->
+    <path
+      d="M 38 98 C 42 116 64 135 98 135 C 136 135 174 122 222 98 C 172 115 134 125 96 125 C 68 125 50 111 46 97 Z"
+      class="clinic-pink"
+    />
+    <!-- Upper accent sweep into the crossbar of 'A' -->
+    <path
+      d="M 96 125 C 136 125 174 114 234 94 C 182 108 142 116 96 116 Z"
+      class="clinic-pink"
+      opacity="0.9"
+    />
+  </g>
+
+  <!-- Right Typography Group matching exact letterforms and weights from uploaded asset -->
+  <g id="typography">
+    <!-- KLINIK PRATAMA in Navy Blue (#0E3D6B) -->
+    <text
+      x="192"
+      y="62"
+      class="clinic-navy text-title"
+    >KLINIK PRATAMA</text>
+
+    <!-- AZIZAH in Vibrant Magenta Pink (#E82676) -->
+    <text
+      x="190"
+      y="126"
+      class="clinic-pink text-brand"
+    >AZIZAH</text>
+  </g>
+</svg>

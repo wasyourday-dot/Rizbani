@@ -1,0 +1,6 @@
+{
+  "name": "Klinik Pratama Azizah | Layanan dan Lokasi",
+  "description": "Temukan informasi layanan, lokasi, dan kontak Klinik Pratama Azizah di Sampang, Madura.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
